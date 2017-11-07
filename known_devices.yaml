@@ -1,0 +1,192 @@
+
+94103e4dae81:
+  hide_if_away: false
+  icon:
+  mac: 94:10:3E:4D:AE:81
+  name: 94103e4dae81
+  picture:
+  track: true
+  vendor: Belkin International Inc.
+
+camara_xianomi:
+  hide_if_away: false
+  icon: mdi:cctv
+  mac: E8:AB:FA:46:65:B1
+  name: Xianomi
+  picture:
+  track: true
+  vendor: Shenzhen Reecam Tech.Ltd.
+
+lgsmarttv:
+  hide_if_away: false
+  icon:
+  mac: 3C:CD:93:7D:9D:11
+  name: LGSmartTV
+  picture:
+  track: true
+  vendor: LG ELECTRONICS INC
+
+Hickvision1:
+  hide_if_away: false
+  icon: mdi:cctv
+  mac: C4:2F:90:52:BF:58
+  name: Hickvision 1
+  picture:
+  track: true
+  vendor: Hangzhou Hikvision Digital Technology Co.,Ltd.
+
+
+  
+
+homeauto:
+  hide_if_away: false
+  icon:
+  mac: B8:27:EB:37:15:1E
+  name: home-auto
+  picture:
+  track: true
+  vendor: Raspberry Pi Foundation
+
+Logitech1:
+  hide_if_away: false
+  icon: mdi:cctv
+  mac: 00:12:AB:18:43:C9
+  name: Logitech1
+  picture:
+  track: true
+  vendor: WiLife, Inc.
+
+desktop:
+  hide_if_away: false
+  icon:
+  mac: 50:46:5D:6A:7E:3F
+  name: desktop
+  picture:
+  track: true
+  vendor: ASUSTek COMPUTER INC.
+
+Logitech2:
+  hide_if_away: false
+  icon: mdi:cctv
+  mac: 00:12:AB:18:3A:D2
+  name: Logitech2
+  picture:
+  track: true
+  vendor: WiLife, Inc.
+
+Hickvision2:
+  hide_if_away: false
+  icon: mdi:cctv
+  mac: C4:2F:90:52:BE:DF
+  name: Hickvision2
+  picture:
+  track: true
+  vendor: Hangzhou Hikvision Digital Technology Co.,Ltd.
+
+MotoZ:
+  hide_if_away: true
+  icon: mdi:cellphone-android
+  mac: F4:F1:E1:8A:5D:A5
+  name: MotoZ
+  picture:
+  track: true
+  vendor: Motorola Mobility LLC, a Lenovo Company
+
+bsp5475d078633f:
+  hide_if_away: false
+  icon:
+  mac: 54:75:D0:78:63:3F
+  name: BSP5475D078633F
+  picture:
+  track: true
+  vendor: Cisco Systems, Inc
+
+TableLenovo:
+  hide_if_away: true
+  icon: mdi:table-android
+  mac: 00:0A:F5:A1:A2:50
+  name: Table Lenovo
+  picture:
+  track: true
+  vendor: Airgo Networks, Inc.
+
+bsp5475d07863c7:
+  hide_if_away: false
+  icon:
+  mac: 54:75:D0:78:63:C7
+  name: BSP5475D07863C7
+  picture:
+  track: true
+  vendor: Cisco Systems, Inc
+
+galaxys7edge:
+  hide_if_away: true
+  icon: mdi:cellphone-android
+  mac: 8C:F5:A3:B2:93:CF
+  name: Galaxy-S7-edge
+  picture:
+  track: true
+  vendor: SAMSUNG ELECTRO-MECHANICS(THAILAND)
+
+yeelink-light-strip1:
+  hide_if_away: false
+  icon: mdi:led-strip
+  mac: 28:6C:07:86:33:35
+  name: yeelink-light-strip1 
+  picture:
+  track: true
+  vendor: XIAOMI Electronics,CO.,LTD
+
+localhost:
+  hide_if_away: false
+  icon:
+  mac: 5C:49:7D:C3:9D:D1
+  name: localhost
+  picture:
+  track: true
+  vendor: Samsung Electronics Co.,Ltd
+
+chromecast:
+  hide_if_away: false
+  icon:
+  mac: A4:77:33:39:D3:26
+  name: Chromecast
+  picture:
+  track: true
+  vendor: Google, Inc.
+
+videopi3:
+  hide_if_away: false
+  icon:
+  mac: B8:27:EB:0D:FF:78
+  name: videoPi3
+  picture:
+  track: true
+  vendor: Raspberry Pi Foundation
+
+00248dc4ba04:
+  hide_if_away: false
+  icon:
+  mac: 00:24:8D:C4:BA:04
+  name: 00248dc4ba04
+  picture:
+  track: true
+  vendor: unknown
+
+1883bf666fbe:
+  hide_if_away: false
+  icon:
+  mac: 18:83:BF:66:6F:BE
+  name: 1883bf666fbe
+  picture:
+  track: true
+  vendor: Arcadyan Technology Corporation
+
+chromecast_2:
+  hide_if_away: false
+  icon:
+  mac: D0:E7:82:D5:B8:83
+  name: Chromecast
+  picture:
+  track: true
+  vendor: AzureWave Technology Inc.

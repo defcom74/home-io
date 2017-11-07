@@ -1,0 +1,78 @@
+#################################################################
+## Groups
+#################################################################
+
+  default_view:
+    view: yes
+    icon: mdi:home
+    entities:
+      - group.weather
+      - group.thermostats
+      - group.all_lights
+      - group.switches
+      - group.home_security
+      - group.information
+      - group.ring_doorbell
+      - group.Phones
+      - group.ligths
+      - group.Sensors
+
+  cameras_view:
+    name: Cameras
+    view: yes
+    icon: mdi:cctv
+    entities:
+      - group.camaras_out
+      - group.camaras_in
+      
+  todos_view:
+    view: yes
+    icon: mdi:home-automation
+    entities:
+      - group.all_devices
+          
+    
+  switches:
+    - switch.wemoswitch
+    - switch.wemo_light_switch
+    
+  ligths:
+    - light.strip_light
+    
+  weather:
+    - sensor.yr_symbol
+    
+  camaras_in:
+    name: Camaras inside
+    entities:
+    - device_tracker.camara_xianomi
+    - cameras.xianomi
+    
+  camaras_out:
+    name: Camaras outside
+    entities:
+    - device_tracker.Hickvision1
+    - device_tracker.Hickvision2
+    - device_tracker.Logitech1
+    - device_tracker.Logitech2
+    
+  Phones:
+    - device_tracker.galaxys7edge
+    - device_tracker.MotoZ
+    - device_tracker.TableLenovo
+    
+  Sensors:
+    - binary_sensor.binary_sensor_hik2_disk_full
+    - binary_sensor.binary_sensor_hik2_field_detection
+    - binary_sensor.binary_sensor_hik2_line_crossing
+    - binary_sensor.binary_sensor_hik2_motion
+    - binary_sensor.binary_sensor_hik2_tamper_detection
+    
+    - binary_sensor.binary_sensor_hik1_disk_full
+    - binary_sensor.binary_sensor_hik1_field_detection
+    - binary_sensor.binary_sensor_hik1_line_crossing
+    - binary_sensor.binary_sensor_hik1_motion
+    - binary_sensor.binary_sensor_hik1_tamper_detection
+    
+    - switch.switch_hik1
+    - switch.switch_hik2
