@@ -1,3 +1,19 @@
   - platform: ffmpeg
-    name: Xianomi
+    name: XianomiStream
     input: -rtsp_transport tcp -i rtsp://192.168.1.35:554/ch0.h264
+    
+  - platform: ffmpeg
+    name: Cochera
+    input: -rtsp_transport tcp -i rtsp://192.168.1.75/HighResolutionVideo
+  - platform: ffmpeg
+    name: Puerta
+    input: -rtsp_transport tcp -i rtsp://192.168.1.85/HighResolutionVideo
+  - platform: ffmpeg
+    name: Cocina
+    input: -rtsp_transport tcp -i rtsp://192.168.1.205/HighResolutionVideo
+  - platform: ffmpeg
+    name: CuartoHik
+    input: -rtsp_transport tcp -i rtsp://admin:M0dem$01@192.168.1.64:554/Streaming/Channels/101/
+  - platform: ffmpeg
+    name: CocheraHik
+    input: -rtsp_transport tcp -i !secret hik2_url

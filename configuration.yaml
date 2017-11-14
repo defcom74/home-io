@@ -24,7 +24,7 @@ config:
   
 http:
   # Secrets are defined in the file secrets.yaml
-  # api_password: !secret http_password
+  api_password: !secret http_password
   # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
   # base_url: example.duckdns.org:8123
 
@@ -70,7 +70,7 @@ sensor:
 light:
   - platform: yeelight
     devices:
-      192.168.1.180:
+      device_tracker.yeelinklightstrip1:
         name: Strip Light
         transition: 1000
         use_music_mode: True #(defaults to False)
@@ -116,6 +116,7 @@ switch:
     name: switch_hik2
     username: !secret hik_user
     password: !secret hik_pass
+    
 camera: !include camaras.yaml
 
 # Text to speech
@@ -125,3 +126,4 @@ tts:
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
+
