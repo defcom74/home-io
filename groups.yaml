@@ -46,7 +46,12 @@
     name: Camaras inside
     entities:
     - device_tracker.camara_xianomi
-    - cameras.xianomi
+    - cameras.xianomiStream
+    - camera.cochera
+    - camera.cocina
+    - camera.puerta
+    - camera.cocherahik
+    - camera.cuartohik
     
   camaras_out:
     name: Camaras outside
@@ -55,6 +60,7 @@
     - device_tracker.Hickvision2
     - device_tracker.Logitech1
     - device_tracker.Logitech2
+    - device_tracker.Logitech3
     
   Phones:
     - device_tracker.galaxys7edge
