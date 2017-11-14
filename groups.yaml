@@ -16,6 +16,7 @@
       - group.Phones
       - group.ligths
       - group.Sensors
+      
 
   cameras_view:
     name: Cameras
@@ -31,7 +32,17 @@
     entities:
       - group.all_devices
           
+  tv_view:
+    view: yes
+    icon: mdi:television
+    entities:
+      - group.tvs
     
+  tvs:
+    - device_tracker.chromecast
+    - device_tracker.chromecast_2
+    - device_tracker.lgsmarttv
+    - device_tracker.videopi3   
   switches:
     - switch.wemoswitch
     - switch.wemo_light_switch
@@ -46,7 +57,7 @@
     name: Camaras inside
     entities:
     - device_tracker.camara_xianomi
-    - cameras.xianomiStream
+    - camera.xianomistream
     - camera.cochera
     - camera.cocina
     - camera.puerta

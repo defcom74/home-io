@@ -16,4 +16,4 @@
     input: -rtsp_transport tcp -i rtsp://admin:M0dem$01@192.168.1.64:554/Streaming/Channels/101/
   - platform: ffmpeg
     name: CocheraHik
-    input: -rtsp_transport tcp -i !secret hik2_url
+    input: -rtsp_transport tcp -i rtsp://admin:M0dem$01@192.168.1.116:554/Streaming/Channels/101/
